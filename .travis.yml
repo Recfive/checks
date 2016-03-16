@@ -1,2 +1,5 @@
 language: go
 go: 1.6
+
+install:
+  - go get -u github.com/aws/aws-sdk-go/...
