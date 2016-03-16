@@ -1,3 +1,5 @@
+all: build/check-ecs-agent
+
 build/check-ecs-agent:
 	go build -o build/check-ecs-agent check-ecs-agent.go
 
