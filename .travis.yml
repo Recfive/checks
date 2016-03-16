@@ -1,5 +1,9 @@
 language: go
 go: 1.6
 
+cache:
+  directories:
+    - $GOPATH/src/github.com/aws/aws-sdk-go
+
 install:
   - go get -u github.com/aws/aws-sdk-go/...
